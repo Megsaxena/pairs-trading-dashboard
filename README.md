@@ -269,7 +269,7 @@ An interactive dashboard is included (`dashboard.html`) — no server required.
 
 **Meghna Saxena** — Junior Portfolio Manager, QC Partners GmbH
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/meghnasaxena-/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]((https://www.linkedin.com/in/meghnasaxena-/))
 
 ---
 
