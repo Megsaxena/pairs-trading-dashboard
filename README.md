@@ -244,6 +244,19 @@ An interactive dashboard is included (`dashboard.html`) — no server required.
 - Simulated P&L chart and Sharpe vs drawdown scatter
 - All-pairs leaderboard ranked by best Sharpe
 
+**To use locally:** open `dashboard.html` in any browser.
+
+**To share publicly:** see [hosting options below](#hosting-the-dashboard).
+
+### Hosting the Dashboard
+
+| Method | Time | Cost | Link type |
+|---|---|---|---|
+| [Netlify Drop](https://app.netlify.com/drop) | 30 sec | Free | Permanent (with account) |
+| [GitHub Pages](https://pages.github.com) | 5 min | Free | `yourusername.github.io/repo` |
+| Claude.ai artifact share | Instant | Free (Pro) | claude.ai share link |
+
+---
 
 ## Limitations
 
@@ -268,6 +281,8 @@ An interactive dashboard is included (`dashboard.html`) — no server required.
 ## Author
 
 **Meghna Saxena** — Junior Portfolio Manager, QC Partners GmbH
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
 
 ---
 
