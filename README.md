@@ -7,9 +7,6 @@
 
 A rigorous, end-to-end **statistical arbitrage pairs trading strategy** applied to the S&P 500 equity universe. Built in Python with a strict train/test split, Engle-Granger cointegration testing, OLS-derived hedge ratios, Ornstein-Uhlenbeck mean-reversion calibration, and a 225-combination parameter grid search — all net of transaction costs.
 
-> **Live dashboard →** [pairs-dashboard link here]
-> Interactive simulator across all 21 cointegrated pairs and 4,725 parameter combinations.
-
 ---
 
 ## 🗂 Table of Contents
@@ -246,16 +243,6 @@ An interactive dashboard is included (`dashboard.html`) — no server required.
 
 **To use locally:** open `dashboard.html` in any browser.
 
-**To share publicly:** see [hosting options below](#hosting-the-dashboard).
-
-### Hosting the Dashboard
-
-| Method | Time | Cost | Link type |
-|---|---|---|---|
-| [Netlify Drop](https://app.netlify.com/drop) | 30 sec | Free | Permanent (with account) |
-| [GitHub Pages](https://pages.github.com) | 5 min | Free | `yourusername.github.io/repo` |
-| Claude.ai artifact share | Instant | Free (Pro) | claude.ai share link |
-
 ---
 
 ## Limitations
@@ -282,7 +269,7 @@ An interactive dashboard is included (`dashboard.html`) — no server required.
 
 **Meghna Saxena** — Junior Portfolio Manager, QC Partners GmbH
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/meghnasaxena-/))
 
 ---
 
