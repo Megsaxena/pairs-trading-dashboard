@@ -1,10 +1,13 @@
-# pairs-trading-dashboard
 # 📈 Pairs Trading Strategy — S&P 500
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Universe](https://img.shields.io/badge/Universe-S%26P%20500-orange)
 
 A rigorous, end-to-end **statistical arbitrage pairs trading strategy** applied to the S&P 500 equity universe. Built in Python with a strict train/test split, Engle-Granger cointegration testing, OLS-derived hedge ratios, Ornstein-Uhlenbeck mean-reversion calibration, and a 225-combination parameter grid search — all net of transaction costs.
 
-> **Live dashboard →** 
+> **Live dashboard →** [pairs-dashboard link here]
 > Interactive simulator across all 21 cointegrated pairs and 4,725 parameter combinations.
 
 ---
@@ -65,6 +68,7 @@ Entry: 1.75σ  |  Exit: 0.75σ  |  Stop: 4.0σ  |  Window: 30 days
 Sharpe: 1.93  |  Return: 50.1%  |  Max DD: -6.6%  |  Win Rate: 25.5%
 ```
 
+![BAC/PNC Chart](pair_BAC_PNC.png)
 
 ### DAL / NCLH — Cross-Sector Highlight
 
@@ -75,6 +79,7 @@ Sharpe: 1.80  |  Return: 58.1%  |  Max DD: -6.7%  |  Calmar: 8.68
 
 > Delta Air Lines and Norwegian Cruise Line are in different GICS sectors but share a deep macro dependency: both are high-leverage leisure-travel businesses exposed to the same consumer cycle and fuel costs. This pair would be missed entirely by a same-sector-only screen.
 
+![DAL/NCLH Chart](pair_DAL_NCLH.png)
 
 ---
 
@@ -227,6 +232,18 @@ GRID = dict(
 ```
 
 ---
+
+## Dashboard
+
+An interactive dashboard is included (`dashboard.html`) — no server required.
+
+**Features:**
+- Select from all 21 cointegrated pairs
+- Adjust entry/exit/stop/window parameters with sliders
+- Live metric cards: Sharpe, return, max drawdown, Calmar, win rate
+- Simulated P&L chart and Sharpe vs drawdown scatter
+- All-pairs leaderboard ranked by best Sharpe
+
 
 ## Limitations
 
