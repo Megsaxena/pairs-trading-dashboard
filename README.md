@@ -6,7 +6,8 @@
 ![Universe](https://img.shields.io/badge/Universe-S%26P%20500-orange)
 
 A rigorous, end-to-end **statistical arbitrage pairs trading strategy** applied to the S&P 500 equity universe. Built in Python with a strict train/test split, Engle-Granger cointegration testing, OLS-derived hedge ratios, Ornstein-Uhlenbeck mean-reversion calibration, and a 225-combination parameter grid search — all net of transaction costs.
-
+Live dashboard → [pairs-dashboard link here](https://megsaxena.github.io/pairs-trading-dashboard/)
+Interactive simulator across all 21 cointegrated pairs and 4,725 parameter combinations.
 ---
 
 ## 🗂 Table of Contents
